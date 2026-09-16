@@ -169,7 +169,7 @@ export const projects: Project[] = [
       'Live sensor visualization',
       'Automation dashboard',
     ],
-    github: null,
+    github: 'https://github.com/Ansh9598/smart-home-automation',
     demo: null,
   },
 ];
