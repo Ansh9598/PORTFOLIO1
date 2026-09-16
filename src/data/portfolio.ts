@@ -131,8 +131,8 @@ export const projects: Project[] = [
       'Accuracy',
       'ROC-AUC',
     ],
-    github: null,
-    demo: null,
+    github: 'https://github.com/Ansh9598/impact-of-data-balancing-techniques-on-fraud-detection-mode',
+    demo: 'https://impact-of-data-balancing-techniques.vercel.app/',
   },
   {
     id: 'voice-assistant',
