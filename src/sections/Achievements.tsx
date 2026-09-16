@@ -6,7 +6,7 @@ import SectionHeading from '../components/SectionHeading';
 export default function Achievements() {
   return (
     <section id="achievements" className="section-shell py-24">
-      <SectionHeading index="06" title="Achievements" description="A couple of milestones along the way." />
+      <SectionHeading index="07" title="Achievements" description="A couple of milestones along the way." />
 
       <div className="grid gap-4 sm:grid-cols-2">
         {achievements.map((item, i) => (
