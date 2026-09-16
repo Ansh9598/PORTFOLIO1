@@ -6,6 +6,7 @@ import CommandPalette from './components/CommandPalette';
 import PageLoader from './components/PageLoader';
 import Home from './pages/Home';
 import RecruiterView from './pages/RecruiterView';
+import Games from './sections/Games';
 import { useTheme } from './hooks/useTheme';
 
 export default function App() {
@@ -41,6 +42,7 @@ export default function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/games" element={<Games />} />
           <Route path="/recruiter" element={<RecruiterView />} />
         </Routes>
       </main>
