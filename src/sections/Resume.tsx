@@ -6,7 +6,7 @@ import SectionHeading from '../components/SectionHeading';
 export default function Resume() {
   return (
     <section id="resume" className="section-shell py-24">
-      <SectionHeading index="07" title="Resume" description="A one-page summary of my background." />
+      <SectionHeading index="08" title="Resume" description="A one-page summary of my background." />
 
       <motion.div
         initial={{ opacity: 0, y: 16 }}
