@@ -17,6 +17,7 @@ const links = [
   { label: 'Finder', to: '/#home' },
   { label: 'Projects', to: '/#projects' },
   { label: 'About', to: '/#about' },
+  { label: 'Games', to: '/games' },
   { label: 'Contact', to: '/#contact' },
 ];
 
@@ -28,6 +29,10 @@ export default function Navbar({ theme, onToggleTheme, onOpenPalette }: Props) {
 
   function goTo(hash: string) {
     setMobileOpen(false);
+    if (hash === '/games') {
+      navigate('/games');
+      return;
+    }
     if (location.pathname !== '/') {
       navigate('/');
       setTimeout(() => {
