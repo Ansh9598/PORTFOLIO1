@@ -53,7 +53,15 @@ export default function CommandPalette({ open, onClose, onToggleTheme }: Props) 
       { id: 'about', label: 'About', icon: User, run: () => scrollTo('about') },
       { id: 'skills', label: 'Skills', icon: Cpu, run: () => scrollTo('skills') },
       { id: 'projects', label: 'Projects', icon: FolderKanban, run: () => scrollTo('projects') },
-      { id: 'games', label: 'Games', icon: Gamepad2, run: () => scrollTo('games') },
+      {
+        id: 'games',
+        label: 'Games',
+        icon: Gamepad2,
+        run: () => {
+          onClose();
+          navigate('/games');
+        },
+      },
       { id: 'experience', label: 'Experience', icon: Briefcase, run: () => scrollTo('experience') },
       { id: 'education', label: 'Education', icon: GraduationCap, run: () => scrollTo('education') },
       { id: 'resume', label: 'Resume', icon: FileText, run: () => scrollTo('resume') },
