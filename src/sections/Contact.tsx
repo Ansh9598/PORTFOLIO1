@@ -14,7 +14,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="section-shell py-24">
-      <SectionHeading index="08" title="Contact" description="Have an opportunity or a question? Send a message." />
+      <SectionHeading index="09" title="Contact" description="Have an opportunity or a question? Send a message." />
 
       <div className="grid gap-8 lg:grid-cols-[0.8fr_1.2fr]">
         <motion.div
