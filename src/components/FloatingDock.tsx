@@ -68,7 +68,7 @@ export default function FloatingDock() {
       id: 'games',
       label: 'Games',
       icon: Gamepad2,
-      action: () => scrollTo('games'),
+      action: () => navigate('/games'),
       tile: 'bg-gradient-to-b from-amber-400 to-orange-600',
       iconColor: 'text-white',
     },
