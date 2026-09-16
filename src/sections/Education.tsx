@@ -5,7 +5,7 @@ import SectionHeading from '../components/SectionHeading';
 export default function Education() {
   return (
     <section id="education" className="section-shell py-24">
-      <SectionHeading index="05" title="Education" description="Academic background." />
+      <SectionHeading index="06" title="Education" description="Academic background." />
 
       <div className="relative space-y-6 border-l border-white/10 pl-6 sm:pl-8">
         {education.map((item, i) => (
