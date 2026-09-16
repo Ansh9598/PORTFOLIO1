@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import {
   FolderKanban,
   User,
+  Cpu,
   Gamepad2,
   FileText,
   Github,
@@ -58,9 +59,17 @@ export default function FloatingDock() {
     {
       id: 'skills',
       label: 'Skills',
-      icon: Gamepad2,
+      icon: Cpu,
       action: () => scrollTo('skills'),
       tile: 'bg-gradient-to-b from-emerald-400 to-green-600',
+      iconColor: 'text-white',
+    },
+    {
+      id: 'games',
+      label: 'Games',
+      icon: Gamepad2,
+      action: () => scrollTo('games'),
+      tile: 'bg-gradient-to-b from-amber-400 to-orange-600',
       iconColor: 'text-white',
     },
     {
