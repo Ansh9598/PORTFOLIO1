@@ -21,7 +21,7 @@ export default function Resume() {
           </span>
           <div>
             <h3 className="font-display text-lg font-medium">Ansh_Uttam_Resume.pdf</h3>
-            <p className="text-sm text-muted">Add the file at {profile.resumePath} to activate these buttons.</p>
+            <p className="text-sm text-muted">Download or preview my latest resume.</p>
           </div>
         </div>
         <div className="flex gap-3">
